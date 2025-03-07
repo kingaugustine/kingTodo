@@ -2,8 +2,8 @@
 
 import { useState } from "react";
 import { v4 as uuidv4 } from "uuid";
-import InputComponent from "../components/InputComponent";
-import TasksList from "../components/TasksList";
+import InputComponent from "./InputComponent";
+import TasksList from "./TasksList";
 
 export default function TodoApp() {
   const [tasks, setTasks] = useState([]);
